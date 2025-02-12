@@ -31,6 +31,7 @@
         justify-content: space-between;
         font-size: 20px;
         font-weight: 500;
+        background-color: green;
       }
 
       h1 {
@@ -56,20 +57,38 @@
         background-color: orange;
         color: white;
         text-decoration: none;
+        display: inline-block;
         padding: 16px 32px;
         font-size: 28px;
         font-weight: 600;
         border-radius: 10px;
       }
+
+      section {
+        padding: 96px 0px;
+        background-color: grey
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        /* background-color: red; */
+      }
+
+      header {
+        background-color: orangered;
+        height: 100vh;
+      }
+
     </style>
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="container">
         <div>LOGO</div>
         <div>NAVIGATION</div>
       </nav>
-      <div>
+      <div class="container">
         <h1>A healthy meal delivered to your door, every single day</h1>
         <p>
           The smart 365-days-per-year food subscription that will make you eat
@@ -79,7 +98,7 @@
       </div>
     </header>
     <section>
-      <div>
+      <div class="container">
         <h2>Some random heading</h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla,
